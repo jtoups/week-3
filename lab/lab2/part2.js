@@ -38,7 +38,7 @@ restaurantData = [[39.955664, -75.202548, "New Dehli"], [39.947819, -75.222882, 
 // };
 
 _.each(restaurantData, function(i){
-  L.marker([restaurantData[i][0],restaurantData[i][1]]).addTo(map).bindPopup(restaurantData[i][2]);
+  console.log(i);
 });
 // var myArray = [1, 10, 100, 1000];
 //
